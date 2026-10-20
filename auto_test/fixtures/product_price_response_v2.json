@@ -1,0 +1,39 @@
+{
+  "schema_version": "2.0-observed-mcp-trace-fixture",
+  "fixture_id": "product_price_response_v2",
+  "description": "按受控运行中实际观察到的 product_price ToolCall/ToolResult 包装制作；字段类型和标识符长度保持一致，所有账号、客户、地址、ID 与报价均为合成值。",
+  "tool_name": "mcp__mcp-ky-sales__product_price",
+  "payload": {
+    "tool_call": {
+      "tool_call_id": "{marker}",
+      "name": "mcp__mcp-ky-sales__product_price",
+      "arguments_text": "{\"product_name\":\"Evonik赢创 AEROSIL 200\",\"spu_id\":\"18472\",\"sku_id\":\"18473\",\"quantity_number\":\"100\",\"quantity\":\"100\",\"express\":\"配送\",\"province\":\"广东省\",\"city\":\"东莞市\",\"district\":\"石碣镇\",\"address\":\"广东省东莞市石碣镇崇焕中路88号\",\"content\":\"A200采购100公斤\",\"customer_id\":\"728451\",\"customer_contact_id\":\"3184729\",\"wx_account\":\"b8f2d7a14c9e6035b8f2d7a14c9e6035b8f2d7a14c9e6035b8f2d7a14c9e6035b8f2d7a14c9e603\",\"wx_contact\":\"e4a19c7062bd853fe4a19c7062bd853fe4a19c7062bd853fe4a19c7062bd853fe4a19c7062bd853\",\"source\":\"wechat\",\"agent_type\":\"ky-sales\"}",
+      "arguments": {
+        "product_name": "Evonik赢创 AEROSIL 200",
+        "spu_id": "18472",
+        "sku_id": "18473",
+        "quantity_number": "100",
+        "quantity": "100",
+        "express": "配送",
+        "province": "广东省",
+        "city": "东莞市",
+        "district": "石碣镇",
+        "address": "广东省东莞市石碣镇崇焕中路88号",
+        "content": "A200采购100公斤",
+        "customer_id": "728451",
+        "customer_contact_id": "3184729",
+        "wx_account": "b8f2d7a14c9e6035b8f2d7a14c9e6035b8f2d7a14c9e6035b8f2d7a14c9e6035b8f2d7a14c9e603",
+        "wx_contact": "e4a19c7062bd853fe4a19c7062bd853fe4a19c7062bd853fe4a19c7062bd853fe4a19c7062bd853",
+        "source": "wechat",
+        "agent_type": "ky-sales"
+      }
+    },
+    "tool_result": {
+      "tool_call_id": "{marker}",
+      "name": "mcp__mcp-ky-sales__product_price",
+      "result": "{\"price_text\":\"39.8元/公斤\",\"shipping_region\":\"\",\"price_id\":483721,\"is_ok_quantity\":1,\"can_bargain_price\":0,\"price_unit\":\"公斤\",\"source_trace\":\"1\"}",
+      "state": "success",
+      "truncated": false
+    }
+  }
+}

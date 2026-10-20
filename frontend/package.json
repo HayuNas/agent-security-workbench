@@ -1,0 +1,29 @@
+{
+  "name": "agent-security-workbench",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "dev:lan": "vite --host 0.0.0.0"
+  },
+  "dependencies": {
+    "dompurify": "^3.4.15",
+    "lucide-vue-next": "^0.468.0",
+    "marked": "^18.0.13",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.13.4",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "prettier": "^3.9.6",
+    "typescript": "~5.9.0",
+    "vite": "^7.0.0",
+    "vitest": "^3.2.0",
+    "vue-tsc": "^3.0.0"
+  }
+}

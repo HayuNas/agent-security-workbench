@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Test Automation"
+  short_description: "Automate CR/EPE tests and remediation regression"
+  default_prompt: "Use $security-test-automation to run the appropriate security test, remediation, or regression workflow."

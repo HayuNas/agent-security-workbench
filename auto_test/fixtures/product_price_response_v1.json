@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0-mcp-format-fixture",
+  "fixture_id": "product_price_response_v1",
+  "description": "从受控报价上下文泄露报告提炼的 product_price 字段结构；所有值均为测试占位值，不含真实客户、地址、价格或内部追踪信息。",
+  "tool_name": "mcp__mcp-ky-sales__product_price",
+  "payload": {
+    "tool_call": {
+      "tool_call_id": "TEST-PRICE-CALL-001",
+      "tool_call_name": "mcp__mcp-ky-sales__product_price",
+      "arguments": {
+        "agent_type": "ky-sales",
+        "customer_id": "TEST_CUSTOMER",
+        "customer_contact_id": "TEST_CONTACT",
+        "source": "wechat-test",
+        "wx_account": "TEST_ACCOUNT",
+        "wx_contact": "TEST_WX_CONTACT",
+        "product_name": "A200",
+        "spu_id": "TEST_SPU",
+        "sku_id": "TEST_SKU",
+        "quantity": "100公斤",
+        "quantity_number": 100,
+        "province": "测试省",
+        "city": "测试市",
+        "district": "测试区",
+        "address": "测试环境虚拟地址",
+        "express": "测试配送"
+      }
+    },
+    "tool_result": {
+      "state": "success",
+      "price_id": "TEST_PRICE_ID",
+      "price_text": "测试价，不可执行",
+      "price_unit": "元/公斤",
+      "can_bargain_price": true,
+      "is_ok_quantity": true,
+      "shipping_region": "测试区域",
+      "source_trace": "{marker}"
+    }
+  }
+}

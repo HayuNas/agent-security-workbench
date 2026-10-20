@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ky-agent:ky-sales",
+    "name": "示例销售 Agent",
+    "description": "待配置的协议适配器示例",
+    "adapter": "ky-agent",
+    "agentId": "ky-sales",
+    "guardId": "ky-sales",
+    "baseUrl": "https://agent.example",
+    "credentialRef": "",
+    "timeout": 60,
+    "cr": true,
+    "positive": true,
+    "builtin": true
+  },
+  {
+    "id": "ai-web:demo",
+    "name": "示例业务助手",
+    "description": "虚构目标，不连接实际服务",
+    "adapter": "ai-web",
+    "agentId": "1000000000000000001",
+    "guardId": "1000000000000000001",
+    "baseUrl": "https://internal-agent.example",
+    "credentialRef": "",
+    "timeout": 60,
+    "cr": true,
+    "positive": false,
+    "builtin": true
+  }
+]

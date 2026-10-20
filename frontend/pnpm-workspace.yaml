@@ -1,0 +1,3 @@
+# 仅允许构建工具安装平台对应的二进制文件。
+allowBuilds:
+  esbuild: true

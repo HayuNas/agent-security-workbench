@@ -1,0 +1,16 @@
+.git
+.env*
+**/.env*
+**/env.example
+risk_guard.env
+**/encryption.key
+**/.private
+**/node_modules
+**/__pycache__
+**/tests
+**/results
+**/*.db
+**/*.sqlite*
+**/*.log
+frontend
+auto_test

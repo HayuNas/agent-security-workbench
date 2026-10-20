@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "version": "synthetic-example-v1"
+  },
+  "configSchema": {
+    "strategies": [
+      {
+        "id": "synthetic",
+        "type": "Synthetic Example",
+        "typeCn": "模拟示例",
+        "description": "A locally authored placeholder, not a third-party strategy dataset.",
+        "descriptionCn": "自行编写的模拟占位，不是第三方策略语料。",
+        "methods": [
+          {
+            "id": "Roleplay",
+            "type": "Roleplay Example",
+            "typeCn": "模拟角色"
+          }
+        ]
+      }
+    ]
+  }
+}
